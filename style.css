@@ -1,0 +1,38 @@
+html , body{
+	height: 100%;
+	background-color: #F6E6D1;
+}
+
+
+#btn{
+	display: none;
+	padding: 8px;
+	background-color: #F6E6D1; 
+	font-size: 12px;
+	cursor: pointer;
+}
+
+
+#mdp{
+	padding: 10px 10px 10px 35px; 
+	font-size: 16px; 
+	border-radius: 5px; 
+	border: 1px solid #ccc;
+}
+
+
+#toggleEye{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%); 
+	color: #888; 
+	cursor: pointer;
+}
+
+.Validation{
+	background-color: #E8EAE8; 
+	padding: 15px; 
+	border-radius: 5px; 
+	width: 250px;
+}
